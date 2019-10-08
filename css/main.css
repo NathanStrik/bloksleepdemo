@@ -1,0 +1,45 @@
+body {
+    padding: 40px 0 0 0;
+    user-select: none;
+}
+
+.row-main {
+    padding: 20px 0 0 0;
+    text-transform: uppercase;
+}
+
+.col-left, .col-right {
+    border-radius: 2%;
+    border: 1px solid #555;
+    padding: 10px;
+}
+
+.col-left {
+    background: #e6f2ff;
+}
+
+.col-right {
+    background: #eeffeb;
+}
+
+.connected-block-container {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.block-left, .block-right {
+    cursor: grab;
+    padding: 20px;
+    margin: 10px;
+}
+
+.block-left {
+    background: #ffebe0;
+    border: 2px solid #aa3344;
+}
+
+.block-right {
+    background: #e8f8ff;
+    border: 2px solid #4d7b8f;
+}
